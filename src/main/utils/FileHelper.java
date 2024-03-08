@@ -6,14 +6,13 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Properties;
 
 public class FileHelper {
 
     /**
      *
      * Reads in a JDBC result containing a blob set to a file.
-     * @param resultSet
+     * @param resultSet - resultset
      * @param columnName - name of the database column (blob) we are reading from
      * @param outputFileName - name of output file
      * @throws IOException
@@ -38,11 +37,6 @@ public class FileHelper {
 
     /**
      * write LONGTEXT (text file or xml to local directory)
-     * @param resultSet
-     * @param columnName
-     * @param outputFileName
-     * @throws IOException
-     * @throws SQLException
      */
     public static void writeDBresultSetClobToFile(ResultSet resultSet, String columnName, String outputFileName)
             throws IOException, SQLException {
