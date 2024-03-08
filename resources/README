@@ -1,0 +1,6 @@
+This dep should really be in a POM file as a dependency
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.23</version>
+</dependency>
