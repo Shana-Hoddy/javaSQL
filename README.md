@@ -1,0 +1,11 @@
+JDBC Example
+Collection of tests to demo JDBC
+
+
+PROJECT SETUP
+1. Install MAVEN
+2. Install mySQL
+3. Update the database connection properties with your database admin username and password:
+   Config located at: src/main/config/myProject.properties.
+   Note - credentials would not normally be stored in the properties files and should be handled in a more secure manner.
+4. Run the SQL files located in the src/main/resources directory.
